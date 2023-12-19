@@ -1,0 +1,4 @@
+
+
+find . -type f -print0 | xargs -0 sed -i 's/9333/2333/g'
+find . -type f -print0 | xargs -0 sed -i 's/9888/3888/g'

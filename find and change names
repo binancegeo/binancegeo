@@ -1,0 +1,5 @@
+find . -type f -print0 | xargs -0 sed -i 's/litecoin/titaniumcoin/g'
+find . -type f -print0 | xargs -0 sed -i 's/Litecoin/Titaniumcoin/g'
+find . -type f -print0 | xargs -0 sed -i 's/LiteCoin/TitaniumCoin/g'
+find . -type f -print0 | xargs -0 sed -i 's/LITECOIN/TITANIUMCOIN/g'
+find . -type f -print0 | xargs -0 sed -i 's/LTC/TITANIUM/g'
